@@ -1,0 +1,12 @@
+{
+  "parse": {
+    "appName": "myBlog",
+    "appId": "freedomshaoId",
+    "masterKey": "freedomshaoKey",
+    "databaseURI": "mongodb://localhost:27017/myBlog",
+    "serverURL": "http://localhost:2337/parse",
+    "port": "2337",
+    "maxUploadSize": "20mb",
+    "allowClientClassCreation": true
+  }
+}

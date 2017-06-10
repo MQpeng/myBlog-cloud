@@ -1,0 +1,8 @@
+{
+  "apps": [{
+    "serverURL": "http://localhost:2337/parse",
+    "appId": "freedomshaoId",
+    "masterKey": "freedomshaoKey",
+    "appName": "myBlog"
+  }]
+}
