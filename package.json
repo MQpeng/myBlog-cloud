@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "nohup node app.js  > project.log &"
+  },
+  "dependencies": {
+    "express": "~4.15.2",
+    "parse-server": "^2.4.2"
   }
 }
