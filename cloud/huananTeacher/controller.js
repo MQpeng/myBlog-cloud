@@ -14,7 +14,7 @@ var TEACHERDATA = [];
 
 function getPageAsync(url) {
   return new Promise(function(resolve, reject) {
-    console.log("正在爬取" + url);
+    // console.log("正在爬取" + url);
     http.get(url, function(res) {
       var bufferHelper = new BufferHelper();
       res.on('data', function(data) {
