@@ -7,9 +7,13 @@
     "test": "nohup node app.js  > project.log &"
   },
   "dependencies": {
+    "bluebird": "^3.5.0",
+    "bufferhelper": "^0.2.1",
+    "cheerio": "^1.0.0-rc.1",
     "encoding": "^0.1.12",
     "express": "~4.15.2",
+    "iconv-lite": "^0.4.18",
     "parse-server": "^2.4.2",
-    "pinyin": "^2.8.3"
+    "urlencode": "^1.1.0"
   }
 }
