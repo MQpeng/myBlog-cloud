@@ -7,7 +7,9 @@
     "test": "nohup node app.js  > project.log &"
   },
   "dependencies": {
+    "encoding": "^0.1.12",
     "express": "~4.15.2",
-    "parse-server": "^2.4.2"
+    "parse-server": "^2.4.2",
+    "pinyin": "^2.8.3"
   }
 }

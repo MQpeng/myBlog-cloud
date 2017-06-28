@@ -13,3 +13,9 @@ app.use('/parse', api);
 app.listen(2337, function() {
   console.log('parse-server-example running on port 2337.');
 });
+require('./cloud/main.js');
+
+Parse.Cloud.define("test", (request, response) => {
+
+  console.log("测试")
+});
