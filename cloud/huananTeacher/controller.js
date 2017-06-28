@@ -156,7 +156,7 @@ exports.syncTeacher = (request, response) => {
   console.log("test", "contrlor")
   getPageAsync(baseUrl)
     .then((data) => {
-      // getOptions(data.html)
+      getOptions(data.html)
       return getTeacherDataUrl(data.html)
     })
     .then((data) => {
