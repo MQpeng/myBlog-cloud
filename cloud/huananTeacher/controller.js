@@ -157,10 +157,9 @@ exports.syncTeacher = (request, response) => {
   getPageAsync(baseUrl)
     .then((data) => {
       getOptions(data.html)
-      return getTeacherDataUrl(data.html)
+      getTeacherDataUrl(data.html)
+        .then((data) => {
+          getTeacherData(data, 0, data.length)
+        })
     })
-    .then((data) => {
-      return getTeacherData(data, 0, data.length)
-    })
-
 }
