@@ -5,3 +5,5 @@ require('./articles/trigger')
 
 require('./huananTeacher/route')
 require('./huananTeacher/trigger')
+
+require('./ECStream/trigger')
